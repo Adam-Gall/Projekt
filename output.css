@@ -522,97 +522,96 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
+.ml-24 {
+  margin-left: 6rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
+.ml-4 {
+  margin-left: 1rem;
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+.mt-96 {
+  margin-top: 24rem;
 }
 
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+.flex {
+  display: flex;
 }
 
-.bg-\[url\(\'https\:\/\/cdn\.pixabay\.com\/photo\/2023\/04\/14\/13\/46\/animal-7925140_960_720\.jpg\'\)\] {
-  background-image: url('https://cdn.pixabay.com/photo/2023/04/14/13/46/animal-7925140_960_720.jpg');
+.h-12 {
+  height: 3rem;
 }
 
-.bg-\[url\(\'https\:\/\/cdn\.pixabay\.com\/photo\/2023\/04\/16\/18\/50\/diabolo-7930927_960_720\.jpg\'\)\] {
-  background-image: url('https://cdn.pixabay.com/photo/2023/04/16/18/50/diabolo-7930927_960_720.jpg');
+.h-24 {
+  height: 6rem;
 }
 
-.bg-\[url\(\'https\:\/\/cdn\.pixabay\.com\/photo\/2023\/04\/09\/11\/05\/mountains-7911302_960_720\.jpg\'\)\] {
-  background-image: url('https://cdn.pixabay.com/photo/2023/04/09/11/05/mountains-7911302_960_720.jpg');
+.w-36 {
+  width: 9rem;
 }
 
-.bg-\[url\(\'https\:\/\/cdn\.pixabay\.com\/photo\/2023\/04\/06\/10\/22\/earth-day-7903523_960_720\.png\'\)\] {
-  background-image: url('https://cdn.pixabay.com/photo/2023/04/06/10/22/earth-day-7903523_960_720.png');
+.list-none {
+  list-style-type: none;
 }
 
-.bg-\[url\(\'https\:\/\/cdn\.pixabay\.com\/photo\/2023\/04\/03\/11\/45\/water-7896610_960_720\.jpg\'\)\] {
-  background-image: url('https://cdn.pixabay.com/photo/2023/04/03/11/45/water-7896610_960_720.jpg');
+.gap-24 {
+  gap: 6rem;
 }
 
-.bg-auto {
-  background-size: auto;
+.gap-4 {
+  gap: 1rem;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.stroke-black {
-  stroke: #000;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
 .pb-3 {
   padding-bottom: 0.75rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
+.pl-14 {
+  padding-left: 3.5rem;
 }
 
-.text-center {
-  text-align: center;
+.pl-24 {
+  padding-left: 6rem;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -624,12 +623,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-black {
+.text-yellow-500 {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-sky-500 {
-  --tw-text-opacity: 1;
-  color: rgb(14 165 233 / var(--tw-text-opacity));
+  color: rgb(234 179 8 / var(--tw-text-opacity));
 }
