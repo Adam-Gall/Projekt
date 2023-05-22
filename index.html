@@ -14,9 +14,12 @@
       <ul class="flex gap-24 ml-32 mt-5 text-xl">
         <li>Úvod</li>
         <a href="#onas"><li>O nás</li></a>
-        <li>Hry</li>
         <li>Kontakt</li>
-        <li>Studia</li>
+        <a
+          href="#studia
+        "
+          ><li>Studia</li></a
+        >
       </ul>
       <p class="mt-5 absolute right-0 mr-3 text-xl">EN / CZ</p>
     </header>
@@ -71,10 +74,12 @@
           aspernatur, sunt cumque corporis. Consequatur animi ipsa neque ducimus
           eligendi impedit ex.
         </p>
-        <button
-          class="bg-blue-800 text-yellow-500 text-4xl w-48 pt-2 pb-2 hover:text-blue-800 hover:bg-yellow-500">
-          Studia
-        </button>
+        <a href="#studia"
+          ><button
+            class="bg-blue-800 text-yellow-500 text-4xl w-48 pt-2 pb-2 hover:text-blue-800 hover:bg-yellow-500">
+            Studia
+          </button></a
+        >
         <button
           class="bg-blue-800 text-yellow-500 text-4xl ml-10 w-48 pt-2 pb-2 hover:text-blue-800 hover:bg-yellow-500">
           Hry
@@ -110,9 +115,47 @@
             class="w-12 h-12 hover:border hover:border-white"
         /></a>
       </footer>
-      <section>
-        <h1 class="text-center">Studia</h1>
+      <h1 class="text-center text-white text-6xl mb-10">Studia</h1>
+      <section id="studia" class="grid grid-cols-3">
+        <article
+          class="text-white box-border w-96 h-48 bg-red-500 text-center m-auto text-3xl pt-8">
+          <h1>Studio</h1>
+        </article>
+        <article
+          class="text-white box-border w-96 h-48 bg-red-500 text-center m-auto text-3xl pt-8">
+          <h1>Studio</h1>
+        </article>
+        <article
+          class="text-white box-border w-96 h-48 bg-red-500 text-center m-auto text-3xl pt-8">
+          <h1>Studio</h1>
+        </article>
       </section>
+      <footer class="border-b border-white pb-12 pl-10 flex gap-4 mt-96">
+        <a href="http://youtube.com" target="_blank" rel="noopener noreferrer"
+          ><img
+            src="img/youtube.png"
+            alt="youtube"
+            class="w-12 h-12 hover:border hover:border-white"
+        /></a>
+        <a href="http://facebook.com" target="_blank"
+          ><img
+            src="img/facebook.png"
+            alt="facebook"
+            class="w-12 h-12 hover:border hover:border-white"
+        /></a>
+        <a href="http://instagram.com" target="_blank"
+          ><img
+            src="img/instagram.png"
+            alt="instagram"
+            class="w-12 h-12 hover:border hover:border-white"
+        /></a>
+        <a href="http://twitter.com" target="_blank"
+          ><img
+            src="img/twitter.png"
+            alt="twitter"
+            class="w-12 h-12 hover:border hover:border-white"
+        /></a>
+      </footer>
     </main>
   </body>
 </html>
