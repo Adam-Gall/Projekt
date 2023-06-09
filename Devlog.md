@@ -15,3 +15,8 @@
 
 - Pokračování v práci
 - Některé odkazy jsou již funkční
+
+## 9. 6.
+
+- Dokončení verze pro mobil
+- Zdokonalení verze pro počítač
