@@ -9,113 +9,187 @@
     <title>PixelPlay</title>
   </head>
   <body class="bg-black">
-    <header class="flex bg-blue-800 pb-2 pl-3 pt-2 text-white">
-      <img src="img/Logo.png" alt="logo" />
-      <ul class="ml-32 mt-5 flex gap-24 text-xl">
-        <li>Úvod</li>
-        <a href="#onas"><li>O nás</li></a>
-        <li>Hry</li>
-        <li>Kontakt</li>
-        <li>Studia</li>
-      </ul>
-      <p class="absolute right-0 mr-3 mt-5 text-xl">EN / CZ</p>
+    <header class="flex bg-blue-800 pb-2 pt-2 text-white xl:pl-3">
+      <img src="img/Logo.png" alt="logo" class="m-auto xl:m-0" />
+      <nav class="m-auto flex w-fit gap-24 text-xl xl:m-0 xl:pl-32 xl:pt-5">
+        <a href="#uvod">Úvod</a>
+        <a href="#onas">O nás</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="#studia">Studia</a>
+      </nav>
     </header>
     <main>
-      <img src="img/LogoV2.png" alt="logo2" class="ml-52 mt-24" />
-      <h2 class="ml-52 text-3xl text-white">
-        Hledáte vydavatele pro svoji hru?
-      </h2>
-      <h2 class="ml-52 text-3xl text-white">Možná jste ho právě našli...</h2>
+      <section id="uvod" class="h-screen border-b border-white">
+        <div class="m-auto w-fit xl:m-0">
+          <img src="img/LogoV2.png" alt="logo2" class="mt-24 xl:ml-52" />
+          <h2 class="text-3xl text-white xl:ml-52">
+            Hledáte vydavatele pro svoji hru?
+          </h2>
+          <h2 class="text-3xl text-white xl:ml-52">
+            Možná jste ho právě našli...
+          </h2>
 
-      <a href="#onas"
-        ><button
-          class="ml-52 mt-12 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
-        >
-          Více
-        </button></a
-      >
-      <footer class="mt-96 flex gap-4 border-b border-white pb-12 pl-10">
-        <a href="http://youtube.com" target="_blank" rel="noopener noreferrer"
-          ><img
-            src="img/youtube.png"
-            alt="youtube"
-            class="h-12 w-12 hover:border hover:border-white"
-        /></a>
-        <a href="http://facebook.com" target="_blank"
-          ><img
-            src="img/facebook.png"
-            alt="facebook"
-            class="h-12 w-12 hover:border hover:border-white"
-        /></a>
-        <a href="http://instagram.com" target="_blank"
-          ><img
-            src="img/instagram.png"
-            alt="instagram"
-            class="h-12 w-12 hover:border hover:border-white"
-        /></a>
-        <a href="http://twitter.com" target="_blank"
-          ><img
-            src="img/twitter.png"
-            alt="twitter"
-            class="h-12 w-12 hover:border hover:border-white"
-        /></a>
-      </footer>
-      <section id="onas" class="ml-52 mt-24">
-        <h1 class="text-6xl text-white">My jsme</h1>
-        <img src="img/LogoV2.png" alt="logo" />
-        <p class="mb-12 max-w-2xl text-justify text-lg text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam et ipsa
-          praesentium sint, veritatis numquam vel minus aut nihil rem optio
-          officia nemo animi officiis provident accusamus repellendus pariatur
-          dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-          sapiente nobis odio facilis facere distinctio odit praesentium nam
-          aspernatur, sunt cumque corporis. Consequatur animi ipsa neque ducimus
-          eligendi impedit ex.
-        </p>
-        <button
-          class="w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
-        >
-          Studia
-        </button>
-        <button
-          class="ml-10 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
-        >
-          Hry
-        </button>
-        <button
-          class="ml-10 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
-        >
-          Kontakt
-        </button>
+          <a href="#onas"
+            ><button
+              class="mt-12 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800 xl:ml-52"
+            >
+              Více
+            </button></a
+          >
+        </div>
       </section>
-      <footer class="mt-96 flex gap-4 border-b border-white pb-12 pl-10">
-        <a href="http://youtube.com" target="_blank" rel="noopener noreferrer"
-          ><img
-            src="img/youtube.png"
-            alt="youtube"
-            class="h-12 w-12 hover:border hover:border-white"
-        /></a>
-        <a href="http://facebook.com" target="_blank"
-          ><img
-            src="img/facebook.png"
-            alt="facebook"
-            class="h-12 w-12 hover:border hover:border-white"
-        /></a>
-        <a href="http://instagram.com" target="_blank"
-          ><img
-            src="img/instagram.png"
-            alt="instagram"
-            class="h-12 w-12 hover:border hover:border-white"
-        /></a>
-        <a href="http://twitter.com" target="_blank"
-          ><img
-            src="img/twitter.png"
-            alt="twitter"
-            class="h-12 w-12 hover:border hover:border-white"
-        /></a>
-      </footer>
-      <section>
-        <h1 class="text-center">Studia</h1>
+
+      <section id="onas" class="h-screen border-b border-white pt-24 xl:pl-52">
+        <article class="m-auto w-fit xl:m-0">
+          <h1 class="text-6xl text-white">My jsme</h1>
+          <img src="img/LogoV2.png" alt="logo" />
+          <p class="mb-12 max-w-2xl text-justify text-lg text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam et
+            ipsa praesentium sint, veritatis numquam vel minus aut nihil rem
+            optio officia nemo animi officiis provident accusamus repellendus
+            pariatur dolor. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Quos sapiente nobis odio facilis facere distinctio odit
+            praesentium nam aspernatur, sunt cumque corporis. Consequatur animi
+            ipsa neque ducimus eligendi impedit ex.
+          </p>
+          <a href="#studia"
+            ><button
+              class="w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
+            >
+              Studia
+            </button></a
+          >
+          <a href="#kontakt"
+            ><button
+              class="ml-10 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
+            >
+              Kontakt
+            </button></a
+          >
+        </article>
+      </section>
+      <section id="studia" class="h-auto border-b border-white xl:h-screen">
+        <h1 class="mb-12 pt-32 text-center text-6xl text-white">Studia</h1>
+        <div class="grid grid-cols-1 gap-16 xl:grid-cols-3 xl:gap-0">
+          <article
+            class="m-auto h-auto w-96 border border-white bg-red-500 pb-6 pt-8 text-center text-4xl text-white"
+          >
+            <h3 class="pb-8">Aternum Game Studios</h3>
+            <img
+              src="https://www.aeternathegame.com/images/easyblog_articles/5/logo_aternum_game_studios.jpg"
+              alt="logo_aternum_game_studios"
+            />
+            <button
+              class="mb-2 mt-6 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
+            >
+              Hry
+            </button>
+            <button
+              class="mt-2 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
+            >
+              Website
+            </button>
+          </article>
+          <article
+            class="m-auto h-auto w-96 border border-white bg-red-500 pb-6 pt-8 text-center text-4xl text-white"
+          >
+            <h3 class="pb-8">Playground Games</h3>
+            <img
+              src="https://assets.xboxservices.com/assets/5d/93/5d9360d5-13fd-4381-bf9e-f4cb1115d9c3.jpg?n=14702985_Content-Placement-0_B3_740x417.jpg"
+              alt="playgroundgameslogo"
+            />
+            <button
+              class="mb-2 mt-6 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
+            >
+              Hry
+            </button>
+            <button
+              class="mt-2 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
+            >
+              Website
+            </button>
+          </article>
+          <article
+            class="m-auto mb-32 h-auto w-96 border border-white bg-red-500 pb-6 pt-8 text-center text-4xl text-white xl:mb-0"
+          >
+            <h3 class="xl:pb-8">Eclipse Game Studios</h3>
+            <img
+              src="https://cdn.dbolical.com/videos/groups/1/33/32837/Eclipse_Studios_Logo_Light.mp4.jpg"
+              alt="Eclipse_Studios_Logo_Light"
+            />
+            <button
+              class="mb-2 mt-6 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
+            >
+              Hry
+            </button>
+            <button
+              class="mt-2 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800"
+            >
+              Website
+            </button>
+          </article>
+        </div>
+      </section>
+      <section id="kontakt" class="h-screen border-b border-white">
+        <div class="m-auto w-fit xl:m-0">
+          <h1 class="mt-24 w-fit text-6xl text-white xl:ml-52">
+            Kontaktní formulář
+          </h1>
+          <form class="w-fit xl:m-0">
+            <article class="mt-12 grid w-fit grid-cols-2 gap-10 xl:ml-52">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="email"
+                placeholder="Email"
+                class="w-80 bg-gray-500 pl-4 text-xl text-white"
+              />
+              <input
+                type="text"
+                id="name"
+                placeholder="Jméno"
+                class="h-12 w-80 bg-gray-500 pl-4 text-xl text-white"
+              />
+              <input
+                type="text"
+                placeholder="Předmět"
+                class="h-12 w-80 bg-gray-500 pl-4 text-xl text-white"
+              />
+              <input
+                type="text"
+                placeholder="Téma"
+                class="h-12 w-80 bg-gray-500 pl-4 text-xl text-white"
+              />
+            </article>
+            <article class="mt-10 xl:ml-52">
+              <input
+                type="text"
+                placeholder="Zpráva"
+                class="h-60 w-full bg-gray-500 pl-4 text-xl text-white"
+              />
+            </article>
+          </form>
+          <button
+            class="mt-12 w-48 bg-blue-800 pb-2 pt-2 text-4xl text-yellow-500 hover:bg-yellow-500 hover:text-blue-800 xl:ml-52"
+          >
+            Odeslat
+          </button>
+        </div>
+        <footer class="m-auto flex w-fit gap-4 pt-52 xl:m-0 xl:pb-12 xl:pl-52">
+          <a href="http://youtube.com" target="_blank" rel="noopener noreferrer"
+            ><img src="img/youtube.png" alt="youtube" class="h-12 w-12"
+          /></a>
+          <a href="http://facebook.com" target="_blank"
+            ><img src="img/facebook.png" alt="facebook" class="h-12 w-12"
+          /></a>
+          <a href="http://instagram.com" target="_blank"
+            ><img src="img/instagram.png" alt="instagram" class="h-12 w-12"
+          /></a>
+          <a href="http://twitter.com" target="_blank"
+            ><img src="img/twitter.png" alt="twitter" class="h-12 w-12"
+          /></a>
+        </footer>
       </section>
     </main>
   </body>
