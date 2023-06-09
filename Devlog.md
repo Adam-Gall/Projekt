@@ -20,3 +20,4 @@
 
 - Dokončení verze pro mobil
 - Zdokonalení verze pro počítač
+- První verze pro tablet
